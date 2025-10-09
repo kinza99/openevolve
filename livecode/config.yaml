@@ -1,0 +1,43 @@
+# Configuration for function minimization example
+max_iterations: 20
+checkpoint_interval: 1
+log_level: "INFO"
+
+# LLM configuration
+llm:
+  primary_model: "service_r10528_forbowen"
+  primary_model_weight: 1.0
+  secondary_model: "service_r10528_forbowen"
+  secondary_model_weight: 0.0
+  api_base: "https://sd1egm6r54gpj4to1urkg.apigateway-cn-beijing-inner.volceapi.com/v1"
+  api_key: caa6246b-afbe-4d9b-ab34-87bf9922032b
+  temperature: 0.7
+  top_p: 0.95
+  max_tokens: 4096
+
+# Prompt configuration
+prompt:
+  system_message: |
+    You are an expert programmer. Your task is find a strategy which can choose the best solution-testing pair from the given solution list and testing list. The solution list and testing list are multiple different attempts for the same question. A ideal solution should be able to complete the question and a ideal testing should be able to judge the correctness of a random solution.
+  num_top_programs: 3
+  use_template_stochasticity: true
+
+# Database configuration
+database:
+  population_size: 20
+  archive_size: 10
+  num_islands: 3
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.7
+
+# Evaluator configuration
+evaluator:
+  timeout: 6000000
+  cascade_evaluation: false
+  cascade_thresholds: [1.0]
+  parallel_evaluations: 1
+  use_llm_feedback: false
+
+# Evolution settings
+diff_based_evolution: true
+allow_full_rewrites: false
