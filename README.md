@@ -137,10 +137,12 @@ We provide two ready-to-use evaluation environment repositories:
 If you find EvoSyn useful, please cite:
 
 ```bibtex
-@inproceedings{evosyn2026,
-  title     = {EvoSyn: Generalizable Evolutionary Data Synthesis for Verifiable Learning},
-  author    = {Anonymous},
-  booktitle = {International Conference on Learning Representations (ICLR)},
-  year      = {2026}
+@misc{du2025evosyngeneralizableevolutionarydata,
+      title={EvoSyn: Generalizable Evolutionary Data Synthesis for Verifiable Learning}, 
+      author={He Du and Bowen Li and Aijun Yang and Siyang He and Qipeng Guo and Dacheng Tao},
+      year={2025},
+      eprint={2510.17928},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.17928}, 
 }
-```
