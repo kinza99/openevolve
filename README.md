@@ -2,7 +2,7 @@
 
 **A task-agnostic, strategy-guided framework that synthesizes verifiable data via evolutionary search.**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2024.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.17928-b31b1b.svg)](https://arxiv.org/abs/2510.17928)
 [![HuggingFace Datasets](https://img.shields.io/badge/🤗%20HuggingFace-Datasets-yellow)](https://huggingface.co/collections/Elynden/evosyn-68ee4a1b64fe6e5312438e5b)
 
 ---
